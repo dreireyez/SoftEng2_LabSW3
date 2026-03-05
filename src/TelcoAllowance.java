@@ -1,9 +1,8 @@
-import java.util.HashMap;
-import java.util.Map;
+import java.util.*;
 
 public class TelcoAllowance implements UsagePromo {
     
-    private static Map<String, double> allowanceMap = new HashMap<>();
+    private static Map<String, Integer> allowanceMap = new HashMap<>();
 
         static {
             allowanceMap.put("Smart", 15);

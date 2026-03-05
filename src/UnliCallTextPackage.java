@@ -1,4 +1,4 @@
-import java.util.Map;
+import java.util.*;
 
 public class UnliCallTextPackage implements UnliCallOffer {
     private static Map<String, String> packageMap = new HashMap<>();
